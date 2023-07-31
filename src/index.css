@@ -1,13 +1,105 @@
-body {
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  
+
+  color-scheme: light dark;
+  
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+
+  --bgcolor-primary: #d2e099;
+  --bgcolor-secundary: #dae2b6;
+  --bgcolor-dark: #d2c9b5;
+  --bgcolor-light: #fffbe9;
+  --bgcolor-brown: #ba877d;
+  --bgcolor-gray: #f4f4f4;
+  --textcolor-dark: #222;
+  --textcolor-lightbrown: #cfb6b6;
+  --textcolor-lightSalmon: #ffa07a;
+  --textcolor-lightskyblue: #87cefa;
+  
+  --textcolor-light: #fff;
+  --textcolor-red: #ff0000;
+
+  --shadow: 2px 2px 5px rgba(104, 104, 104, 0.8);
+  --opacity: 60%;
+
+  --border: 2px solid #666;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+a {
+  color: #646cff;
+  text-decoration: inherit;
+  background-color: #87cefa;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 1rem;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: #242424;
+  color: rgba(255, 255, 255, 0.87);
+}
+
+h1 {
+  font-size: 3em;
+}
+h2 {
+  font-size: 2.5em;
+}
+h3 {
+  font-size: 2em;
+}
+
+h4 {
+  font-size: 1.2em;
+}
+p, textarea, a {
+  font-size: 1em;
+}
+
+button {
+  background: var(--bgcolor-secundary);
+  color: var(--textcolor-dark);
+  font-size: 1em;
+  margin: 0.1rem;
+  padding: 0.625rem 1rem;
+  border-radius: 5px;
+  border: 1px solid transparent;
+  outline: none;
+  transition: 0.2s ease-in;
+  font-weight: 800;
+}
+
+button:hover {
+  /* background: var(--opacity); */
+  color: var(--textcolor-red);
+  transform: scale(1.1);
+  font-weight: 800;
+}
+
+.switchBgContainer button{
+  border: 2px solid var(--textcolor-dark);
+  font-size: 1.5rem;
+}
+
+.dark {
+  background-color: var(--textcolor-dark);
+  color: var(--textcolor-light);
+}
+
+.light {
+  background-color: var(--bgcolor-light);
+  color: var(--textcolor-dark);
 }

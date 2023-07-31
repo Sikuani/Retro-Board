@@ -1,70 +1,32 @@
-# Getting Started with Create React App
+# Project Name: Retro Board
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Purpose of the Project
 
-## Available Scripts
+The Retro Board is a web application designed to facilitate retrospectives for teams or individuals. The application allows users to organize their thoughts and reflections into three categories: "Went Well," "To Improve," and "Action Items." The Retro Board helps users to identify what went well, areas that need improvement, and action items or tasks to address.
 
-In the project directory, you can run:
+## Installation and Setup
 
-### `npm start`
+To use the Retro Board, follow these steps:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+just access the repository page where the application is available. The repository is:
+https://sikuani.github.io/
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Usage Instructions
 
-### `npm test`
+- The Retro Board will display three categories: "Went Well," "To Improve," and "Action Items," in that order. These categories are clearly organized to help users identify the UI elements belonging to each category.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- To add a new retrospective item to any category, click on the "Add" button or the respective UI element associated with that category. This will create a new item or task where you can type your reflections.
 
-### `npm run build`
+- Inside each retrospective item, you can type text to store your reflections. The text is stored in state, and it can only be modified while you are typing inside the item.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- To delete a retrospective item, click on the "Delete" button or the delete icon associated with that item. The item or task will be removed from both the state and the application.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- To move a retrospective item or task to a different category, click on the left or right arrow button associated with the item. If there is no category to the left, clicking the left arrow will move the item to the rightmost category, and vice versa. The visual structure and appearance of the item will remain the same after moving to a different category, except for color.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- The application has a button that allows you to change the state of the display to see it in light mode (sun icon), which is predetermined, and dark mode (moon icon).
 
-### `npm run eject`
+## Credits
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Author: Manuel Pinzon
+Contact: manpin01012000@outlook.com
+GitHub: https://github.com/Sikuani

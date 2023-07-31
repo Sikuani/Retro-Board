@@ -1,0 +1,35 @@
+.retro-item {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.item-controls {
+  margin: 0.1rem;
+  display: flex;
+  justify-content: space-around;
+  
+}
+
+.lightbrown {
+  background-color: var(--textcolor-lightbrown);
+  color: var(--textcolor-dark);
+}
+
+.lightSalmon {
+  background-color: var(--textcolor-lightSalmon);
+  color: var(--textcolor-dark);
+}
+
+.lightskyblue {
+  background-color:var(--textcolor-lightskyblue);
+  color: var(--textcolor-dark);
+}
+
+/* textarea {
+  width: 100%;
+  resize: none;
+  overflow: hidden;
+} */
+
