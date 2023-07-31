@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/retro-board/static/css/main.a7ed38a2.css",
+    "main.js": "/retro-board/static/js/main.e3ef4121.js",
+    "static/media/cancodeWallpaper.jpg": "/retro-board/static/media/cancodeWallpaper.d991100177780dc1b2b4.jpg",
+    "index.html": "/retro-board/index.html",
+    "main.a7ed38a2.css.map": "/retro-board/static/css/main.a7ed38a2.css.map",
+    "main.e3ef4121.js.map": "/retro-board/static/js/main.e3ef4121.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a7ed38a2.css",
+    "static/js/main.e3ef4121.js"
+  ]
+}
