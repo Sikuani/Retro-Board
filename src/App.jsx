@@ -1,6 +1,6 @@
 import { useState } from "react";
-import "./App.css";
 import RetroBoard from "./components/RetroBoard";
+import "./App.css";
 
 function App() {
   const [toggle, setToggle] = useState(true);

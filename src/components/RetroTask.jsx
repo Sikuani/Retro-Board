@@ -22,7 +22,6 @@ const RetroItem = ({
 
   const handleVoteChange = (type) => {
     const newVote = votes;
-    console.log(newVote);
 
     if (type === "up") {
       newVote.up = newVote.up + 1;
@@ -59,10 +58,6 @@ const RetroItem = ({
     <div className="retro-item">
       <textarea
         autoFocus
-        // id="textarea"
-        // rows="1"
-        // onChange="adjustTextareaHeight()"
-        // onInput="adjustTextareaHeight()"
         className={colorButton()}
         value={text}
         onChange={handleTextChange}
